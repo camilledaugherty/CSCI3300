@@ -1,0 +1,13 @@
+Interfaces:
+- IHospital
+    - Hospital implements
+- IEmployee
+    - Employee implements
+        - HealthCare extends
+            - Nurse extends
+            - PrimaryCare extends
+            - Specialist extends
+            - Surgeon extends
+        - Staff extends
+Enum:
+- Shift
